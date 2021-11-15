@@ -1,0 +1,45 @@
+.formTodos__container {
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.formTodos__firstSection {
+  border-bottom: 1px solid rgb(129, 113, 113);
+  padding-bottom: 15px;
+}
+
+.formTodos__firstSection > input {
+  outline: none;
+  border: none;
+  background-color: rgb(240, 233, 233);
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.formTodos__firstSection > input:hover {
+  background-color: rgb(228, 168, 168);
+  color: white;
+}
+
+.formTodos__firstSection > button {
+  padding: 10px 15px;
+  border: none;
+  margin-left: 10px;
+  text-transform: uppercase;
+  background-color: chocolate;
+  color: white;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.formTodos__firstSection > button:hover {
+  background-color: orange;
+  color: rgb(30, 42, 43);
+}
+
+.formTodos__firstSection > button:active {
+  transform: scale(0.95);
+}
